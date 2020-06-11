@@ -1,5 +1,6 @@
 # spec/scanner_spec.rb
 require './lib/scanner'
+require './lib/linter'
 
 describe Scanner do
   let(:check) { Linter.new }
