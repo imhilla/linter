@@ -24,13 +24,14 @@ module SpaceScanner
   def space_before_bracket(lines, errors)
     lines.each_with_index do |line, index|
       next unless line.include?('{')
+
       errors << "There should be a space before curly bracket on line #{index + 1}" unless line =~ /[[:space:]]\{/
     end
     errors
   end
 
   def last_line(lines, errors)
-    errors << "Last line in the file should be empty" unless lines.last.include? "/n"
+    errors << 'Last line in the file should be empty' unless lines.last.include? '/n'
   end
   # rubocop:enable Metrics/CyclomaticComplexity
 end
