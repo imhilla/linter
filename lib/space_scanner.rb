@@ -5,4 +5,8 @@ module SpaceScanner
     end
     errors
   end
+  def indentation(line, errors)
+    lines.each_with_index do |line, index|
+    
+  end
 end
