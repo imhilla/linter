@@ -13,4 +13,12 @@ describe SpaceScanner do
       expect(check.trailing_space(bad_lines, errors)).to eql(errors)
     end
   end
+  describe '#indentation' do 
+    it 'should return an empty array, correct indentation detected' do
+      expect(check.indentation(good_lines, errors)).not_to eql([])
+    end
+    it 'should throw an error, when incorrect indentation is detected' do 
+      expect(check.indentation(bad_lines, errors)).to eql(errors)
+    end
+  end
 end
