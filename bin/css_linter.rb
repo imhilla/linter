@@ -1,10 +1,12 @@
 #!/usr/bin/env ruby
 require_relative '../lib/linter.rb'
 require_relative '../lib/scanner.rb'
+require 'colorize'
 
 puts '---------------------------------'
 puts '| Welcome to CSS Linter! |'
 puts '---------------------------------'
+
 puts ''
 puts 'Scanning file...'
 puts ''
