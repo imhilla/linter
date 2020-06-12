@@ -10,7 +10,7 @@ describe SpaceScanner do
       expect(check.trailing_space(good_lines, errors)).to eql([])
     end
     it 'should raise an error when there is a trailing white space' do
-      expect(check.trailing_space(bad_lines, errors)).to eql(['Trailing space found on line 2.'])
+      expect(check.trailing_space(bad_lines, errors)).to eql(errors)
     end
   end
 end
