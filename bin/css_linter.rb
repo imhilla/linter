@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 require_relative '../lib/linter.rb'
 require_relative '../lib/scanner.rb'
-require 'colorize'
 
 puts '---------------------------------'
 puts '| Welcome to CSS Linter! |'
@@ -18,7 +17,7 @@ errors = Linter.check(file)
 
 if errors.size.positive?
   puts "Success 1 file tested. Scan completed with the following #{errors.size} errors: "
-  errors.each { |error| puts '  Error: '.red + "#{error}\n" }
+  errors.each { |error| puts '  Error: ' + "#{error}\n" }
 else
-  puts '1 file tested. All checks completed with no errors'.green
+  puts '1 file tested. All checks completed with no errors'
 end
