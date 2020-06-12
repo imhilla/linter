@@ -1,6 +1,6 @@
 require '../lib/linter.rb'
 module Buffer
-  def self.check(file) 
+  def self.check(file)
     errors = []
     lines = File.open(file).to_a
     if lines.size.positive?

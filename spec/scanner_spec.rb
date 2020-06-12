@@ -13,8 +13,8 @@ describe Scanner do
       expect(check.missing_semicolon(line1, errors)).to eql(["Line doesnot end with ';' on line 1."])
     end
 
-    it 'returns an empty array when there is a semicolon at the end ' do
-      expect(check.missing_semicolon(line2, errors)).to eql([])
+    it 'returns an empty error when there is a semicolon at the end ' do
+      expect(check.missing_semicolon(line2, errors)).to eql(errors)
     end
   end
 end
