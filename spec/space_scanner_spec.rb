@@ -23,6 +23,10 @@ describe SpaceScanner do
   end
   describe "#space_before_bracket" do
     it 'should return an empty array when a line has correct indentation' do
+      expect(check.space_before_bracket(good_lines, errors)).to eql([])
+    end
+    it 'should throw an error when there is no space before bracket' do 
+      expect(check.space_before_bracket(bad_lines, errors)).to eql(errors)
     end
   end
 end
