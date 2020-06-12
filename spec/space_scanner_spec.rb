@@ -21,4 +21,8 @@ describe SpaceScanner do
       expect(check.indentation(bad_lines, errors)).to eql(errors)
     end
   end
+  describe "#space_before_bracket" do
+    it 'should return an empty array when a line has correct indentation' do
+    end
+  end
 end
