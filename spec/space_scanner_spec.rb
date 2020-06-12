@@ -29,4 +29,9 @@ describe SpaceScanner do
       expect(check.space_before_bracket(bad_lines, errors)).to eql(errors)
     end
   end
+  describe "#last_line" do
+    it 'should return nil since the last line is empty' do
+      expect(check.last_line(good_lines, errors)).to eql(errors)
+    end
+  end
 end
