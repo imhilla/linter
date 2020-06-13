@@ -31,7 +31,8 @@ module SpaceScanner
   end
 
   def last_line(lines, errors)
-    errors << 'Last line in the file should be empty' unless lines.last.include? '/n'
+    errors << 'Last line in the file should be empty' unless lines.last.include?('/n')
   end
   # rubocop:enable Metrics/CyclomaticComplexity
 end
+
