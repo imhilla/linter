@@ -105,12 +105,12 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ## Features
 
-In this version release, DRev will check the following issues:
+In this version release, we will check the following issues:
 
 	- Extra/Unnecessary empty lines.
 	- Indentations (By Default and as far, for now, it will check indentations of 2).
-	- Last EoF Empty Line.
-	- Missing Closing or Opening Brackets.
+	- Last Empty Line.
+	- Space before bracket.
 ---
 ## Error List & Examples
 
