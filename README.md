@@ -269,11 +269,10 @@ Feel free to check the [issues page](./issues/).
 
 ## Author
 
-**Daniel Laloush**
+**Hillary Odhiambo**
 
-- Portfolio: [dlaloush.me](https://dlaloush.me)
-- LinkedIn: [Daniel Laloush](https://www.linkedin.com/in/daniel-laloush-0a7331a9)
-- Github: [@Dandush03](https://github.com/Dandush03)
-- Twitter: [@d_laloush](https://twitter.com/d_laloush)
+- LinkedIn: [Hillary Odhiambo](https://www.linkedin.com/in/daniel-laloush-0a7331a9)
+- Github: [@imhilla](https://github.com/Dandush03)
+- Twitter: [@hillarykiptoo](https://twitter.com/hillarykiptoo_)
 
 Give a ⭐️ if you like this project!
