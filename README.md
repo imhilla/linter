@@ -221,6 +221,7 @@ Easy and simple! Just open the folder you want to check on your terminal and typ
 Test for good file ruby ./bin/css_linter.rb lib/good.css
 
 or
+
 Test for bad file ruby ./bin/css_linter.rb lib/bad.css
 ```
 
@@ -231,9 +232,7 @@ Test for bad file ruby ./bin/css_linter.rb lib/bad.css
 - Bundle
 - Ruby
 - Bash
-- Vim
 - GitHub
-- Gem
 - Shields.io
 
 ---
@@ -242,8 +241,8 @@ Test for bad file ruby ./bin/css_linter.rb lib/bad.css
 
 Reach out to me at one of the following places!
 
-- LinkedIn at [Daniel Laloush](https://www.linkedin.com/in/daniel-laloush-0a7331a9)
-- Twitter at [@d_laloush](https://twitter.com/d_laloush)
+- LinkedIn at [Hillary Odhiambo](https://www.linkedin.com/in/daniel-laloush-0a7331a9)
+- Twitter at [@hillarykiptoo](https://twitter.com/hillarykiptoo_)
 
 ---
 
