@@ -33,13 +33,11 @@
 ## Installation
     
 - [Set-Up](#Set-Up)
-- [Install-Gem](#Installing-Gem)
-
-<img src="https://raw.githubusercontent.com/Dandush03/BLOB/master/DRev/Project.png" width=600></img>
+- [Install-Ruby](#Installing-Ruby)
 
 ### Set-Up
 
-#### If you have already Install RUBY && GEMS skip to [Install-Gem](#Installing-Gem) Section
+#### If you have already Install RUBY skip to [Download-file](#Download-file) Section
 
 - Let's start with updating our apt
 
@@ -70,13 +68,9 @@
 
 	If it didn't work, check [Ruby Installation Page](https://www.ruby-lang.org/en/documentation/installation/)
 
-- All that is left is to install the Gem Package by typing in our Terminal
+- All that is left is to clone this repository where the codes are located
 
-	```bash
-	sudo apt-get install rubygems
-	```
-
-### Installing Gem
+### Download file
 
 #### After making sure you've completed the [Set-Up](#Set-Up) process
 
