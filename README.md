@@ -17,9 +17,9 @@
 - [Features](#features)
 	-	[Error List & Examples](#Error-List-&-Examples)
 		- [E_101](#E_101-Space-Before-Bracket)
-		- [W_201](#W_202-Indentation)
-		- [W_203](#W_203-Trailing-Space)
-		- [W_204](#W_204-Mising-Last-Line)
+		- [W_201](#W_201-Indentation)
+		- [W_202](#W_202-Trailing-Space)
+		- [W_203](#W_203-Mising-Last-Line)
 - [How to Use](#How-to-Use)
 - [Built With](#Built-With)
 - [Support](#Support)
@@ -82,8 +82,10 @@
  4. Open Terminal.
  5. Change the current working directory to the location where you want the cloned directory.
  6. Type git clone, and then paste the URL you copied earlier.
+
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 7. Press Enter to create your local clone.
+
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > Cloning into `Spoon-Knife`...
 
@@ -98,7 +100,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 - Now we can now use the codes
 
-## Congratulation! Now You Can Start Using DRev
+## Congratulation! Now You Can Start Using CSS-linter
 ---
 
 ## Features
@@ -112,14 +114,14 @@ In this version release, DRev will check the following issues:
 ---
 ## Error List & Examples
 
-- ### E_101 (Mising Brackets)
+- ### E_101 (Space Before Bracket)
 
 	Bad Code
 	
 	```css 
-	1	body {
+	1	body{
 	2	  width: 101px;
-	3	
+	3	}
 	```
 
 	Good Code
@@ -159,17 +161,18 @@ In this version release, DRev will check the following issues:
 	```
 
 
-- ### W_202 (Mising Line)
+- ### W_202 (Trailing Space)
 
 	Bad Code
 
 	```css
 	1	body {
 	2	  width: 101px;
-	3	}
+	3	} 
+
 	4	section {
 	5	  height: 300px;
-	6	}
+	6	} 
 	```
 
 	Good Code
@@ -184,8 +187,7 @@ In this version release, DRev will check the following issues:
 	7	}
 	8
 	```
-
-- ### W_203 (End of File)
+- ### W_203 (Mising Last Line)
 
 	Bad Code
 
@@ -197,9 +199,6 @@ In this version release, DRev will check the following issues:
 	5	section {
 	6	  height: 300px;
 	7	}
-	8
-  9
-	```
 
 	Good Code
 
@@ -212,54 +211,6 @@ In this version release, DRev will check the following issues:
 	6	  height: 300px;
 	7	}
 	8
-	```
-
-- ### W_204 (Mising Line)
-
-	Bad Code
-
-	```css
-	1	body {
-	2	  width: 101px;
-	3	}
-	4
-	5	section {
-	6	  height: 300px;
-	7	}
-	```
-
-	Good Code
-
-	```css
-	1	body {
-	2	  width: 101px;
-	3	}
-	4
-	5	section {
-	6	  height: 300px;
-	7	}
-	8
-	```
-
-- ### W_205 (Exra Line)
-
-	Bad Code
-
-	```css
-	1	body {
-	2	  width: 101px;
-	3
-	4	}
-	5
-	```
-
-	Good Code
-
-	```css
-	1	body {
-	2	  width: 101px;
-	3	}
-	4
 	```
 
 ## How to Use
