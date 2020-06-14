@@ -218,7 +218,10 @@ In this version release, we will check the following issues:
 Easy and simple! Just open the folder you want to check on your terminal and type the following command!
 
 ```bash
-DRev
+Test for good file ruby ./bin/css_linter.rb lib/good.css
+
+or
+Test for bad file ruby ./bin/css_linter.rb lib/bad.css
 ```
 
 ---
