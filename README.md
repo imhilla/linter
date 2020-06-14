@@ -33,7 +33,7 @@
 ## Installation
     
 - [Set-Up](#Set-Up)
-- [Install-Ruby](#Installing-Ruby)
+- [Download file](#Download file)
 
 ### Set-Up
 
