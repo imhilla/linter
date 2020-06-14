@@ -10,7 +10,7 @@ describe SpaceScanner do
       expect(check.trailing_space(good_lines, errors)).to eql([])
     end
     it 'should raise an error when there is a trailing white space' do
-      expect(check.trailing_space(bad_lines, errors)).to eql(errors)
+      expect(check.trailing_space(bad_lines, errors)).to eql(['Trailing space found on line 2.'])
     end
   end
   describe '#indentation' do
@@ -31,7 +31,7 @@ describe SpaceScanner do
   end
   describe '#last_line' do
     it 'should return nil since the last line is empty' do
-      expect(check.last_line(good_lines, errors)).to eql(errors)
+      expect(check.last_line(good_lines, errors)).to eql(nil)
     end
   end
 end

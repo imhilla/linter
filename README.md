@@ -13,7 +13,6 @@
 
 - [Installation](#Installation)
 	- [Set-Up](#Set-Up)
-	- [Install-Gem](#Installing-Gem)
 - [Features](#features)
 	-	[Error List & Examples](#Error-List-&-Examples)
 		- [E_101](#E_101-Space-Before-Bracket)
@@ -269,9 +268,9 @@ Feel free to check the [issues page](./issues/).
 
 ## Author
 
-**Hillary Odhiambo**
+**Hillary Kiptoo**
 
-- LinkedIn: [Hillary Odhiambo](https://www.linkedin.com/in/daniel-laloush-0a7331a9)
+- LinkedIn: [Hillary Kiptoo](https://www.linkedin.com/in/daniel-laloush-0a7331a9)
 - Github: [@imhilla](https://github.com/Dandush03)
 - Twitter: [@hillarykiptoo](https://twitter.com/hillarykiptoo_)
 
