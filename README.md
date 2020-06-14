@@ -1,13 +1,11 @@
 # Hillary Kiptoo (CSS-Linter) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Dandush03/capstone-build-linter)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)]()
 ![GitHub followers](https://img.shields.io/github/followers/imhilla?label=imhilla&style=social)
-![Twitter URL](https://img.shields.io/twitter/url?label=hillary_kiptoo_&style=social&url=https%3A%2F%2Ftwitter.com%2Fhillary)
+![Twitter URL](https://img.shields.io/twitter/url?label=hillarykiptoo_&style=social&url=https%3A%2F%2Ftwitter.com%2Fhillary)
 
 > This is a Microverse Capstone Project
 
-> CSS Lint
-
-![Recordit GIF](https://raw.githack.com/Dandush03/BLOB/master/DRev/Program.gif)
+> CSS Linter
 
 ---
 
@@ -18,12 +16,10 @@
 	- [Install-Gem](#Installing-Gem)
 - [Features](#features)
 	-	[Error List & Examples](#Error-List-&-Examples)
-		- [E_101](#E_101-Mising-Brackets)
+		- [E_101](#E_101-Space-Before-Bracket)
 		- [W_201](#W_202-Indentation)
-		- [W_202](#W_202-Mising-Line)
-		- [W_203](#W_203-Mising-End-of-File)
-		- [W_204](#W_204-Mising-Line)
-		- [W_205](#W_205-Mising-Extra)
+		- [W_203](#W_203-Trailing-Space)
+		- [W_204](#W_204-Mising-Last-Line)
 - [How to Use](#How-to-Use)
 - [Built With](#Built-With)
 - [Support](#Support)
