@@ -2,8 +2,6 @@
 require_relative '../lib/linter'
 require_relative '../lib/buffer'
 
-
-
 puts '---------------------------------'
 puts '| Welcome to CSS Linter! |'
 puts '---------------------------------'

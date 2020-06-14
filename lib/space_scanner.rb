@@ -35,4 +35,3 @@ module SpaceScanner
   end
   # rubocop:enable Metrics/CyclomaticComplexity
 end
-

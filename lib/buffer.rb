@@ -4,7 +4,7 @@ module Buffer
   def check(file)
     errors = []
     lines = File.open(file).to_a
-    
+
     if lines.size.positive?
       check = Linter.new
       check.last_line(lines, errors)
