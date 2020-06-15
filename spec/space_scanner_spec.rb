@@ -1,5 +1,5 @@
-require_relative './lib/linter'
-require_relative './lib/space_scanner'
+require_relative '../lib/linter'
+require_relative '../lib/space_scanner'
 describe SpaceScanner do
   let(:check) { Linter.new }
   let(:good_lines) { ['#head {', '  padding: 10px;', '}', "\n"] }

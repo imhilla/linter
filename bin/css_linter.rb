@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 require_relative '../lib/linter'
 require_relative '../lib/buffer'
-require_relative '../lib/bracket_scanner'
 
 puts '---------------------------------'
 puts '   | Welcome to CSS Linter! |'
