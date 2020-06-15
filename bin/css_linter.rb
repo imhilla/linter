@@ -1,26 +1,21 @@
 #!/usr/bin/env ruby
 require_relative '../lib/linter'
 require_relative '../lib/buffer'
+require_relative '../lib/bracket_scanner'
 
 puts '---------------------------------'
-puts '| Welcome to CSS Linter! |'
+puts '   | Welcome to CSS Linter! |'
 puts '---------------------------------'
-
-puts ''
-puts 'Scanning file...'
-puts ''
-file = ARGV[0]
-
-puts 'WARNING'
-
-puts 'Scanning file for possible errors...'
-
-puts ''
 
 puts ' '
-
+puts 'Scanning file...'
+puts ' '
+file = ARGV[0]
+puts 'WARNING'
+puts ' '
+puts 'Scanning file for possible errors...'
+puts ' '
 puts 'Please input the correct file path i.e ruby ./bin/css_linter.rb lib/good.css'
-
 puts ' '
 
 errors = Linter.check(file)

@@ -11,6 +11,7 @@ module Buffer
       check.last_line(lines, errors)
       check.indentation(lines, errors)
       check.trailing_space(lines, errors)
+      check.missing_semicolon(lines, errors)
       check.space_before_bracket(lines, errors)
     end
     errors
