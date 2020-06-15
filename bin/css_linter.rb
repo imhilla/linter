@@ -10,8 +10,20 @@ puts ''
 puts 'Scanning file...'
 puts ''
 file = ARGV[0]
+
+puts 'WARNING'
+
 puts 'Scanning file for possible errors...'
+
 puts ''
+
+
+
+puts ' '
+
+puts 'Please input the correct file path i.e ruby ./bin/css_linter.rb lib/good.css'
+
+puts ' '
 
 errors = Linter.check(file)
 

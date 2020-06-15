@@ -1,5 +1,6 @@
 require_relative '../lib/linter.rb'
-
+#All methods for this module have been tested in the space_scanner_spec file
+#The linter file extends the buffer module
 module Buffer
   def check(file)
     errors = []
