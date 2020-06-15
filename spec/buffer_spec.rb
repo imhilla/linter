@@ -9,8 +9,8 @@ describe Buffer do
   let(:bad_lines) { ['#head{', "padding: 10px; \n", '}'] }
 
   describe '#self.check(file)' do
-    it 'should be able to check a line in a css file and return results'do
-    expect(check.trailing_space(good_lines, errors)).to eql([])
+    it 'should be able to check a line in a css file and return results' do
+      expect(check.trailing_space(good_lines, errors)).to eql([])
     end
     it 'should raise an error when there is a trailing white space' do
       expect(check.trailing_space(bad_lines, errors)).to eql(['Trailing space found on line 2.'])
